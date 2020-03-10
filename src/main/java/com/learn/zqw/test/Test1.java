@@ -26,7 +26,7 @@ public class Test1 {
     //3.使用工厂生产SqlSession对象
     SqlSession session = factory.openSession ();
     //4.使用SqlSession创建Mapper接口的代理对象
-//    IUserMapper userMapper = session.getMapper(IUserMapper.class);.
+//    IUserMapper userMapper = session.getMapper(IUserMapper.class);
     session.close();
     in.close();
   }
